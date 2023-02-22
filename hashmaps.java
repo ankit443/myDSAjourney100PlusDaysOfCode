@@ -16,7 +16,7 @@ public class hashmaps {
         student.put(1, "Ayush");
         student.put(2, "Riya");
         student.put(3, "Mohd");
-        student.put(4, "Gamer");
+        student.put(4, "Sahil");
 
         System.out.println(student);
 
