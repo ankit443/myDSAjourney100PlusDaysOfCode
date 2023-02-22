@@ -15,15 +15,24 @@ public class hashmaps {
 
         student.put(1, "Ayush");
         student.put(2, "Riya");
-        student.put(3, "Mohd");
+        student.put(3, "Arpit");
         student.put(4, "Sahil");
 
         System.out.println(student);
 
         System.out.println(student.get(3));
+        System.out.println(student.get(2));
+        System.out.println(student.get(1));
 
         sc.close();
 
     }
 
 }
+
+
+//Advantages and Disadvantages of Hashmaps
+// searching of an element in Hashmap takes order of 1
+// cant hold multiple keys value - disadv
+
+
