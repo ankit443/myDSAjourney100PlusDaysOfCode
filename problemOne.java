@@ -1,29 +1,26 @@
+//challenege from HackerRank, we will be using Loops
+
+//given an integer n, print out the first 10 multiples, each multiple nXi where i should be greater than or equals to 1 and less than or equals to 10
+
+//every output should be printed in a new line
+
 import java.util.*;
+// import java.math.*;
 
 public class problemOne {
 
-    public static void deleteMiddle(Stack<Integer> inputStack, int N) {
+    public static void main(String[] args) {
 
-        int len = 0;
-        if (N % 2 == 0) {
-            len = N / 2 - 1;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the number: ");
+        int n = sc.nextInt();
+
+        // the Loop
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " x " + i + " = " + n * i);
         }
 
-        else {
-            len = N / 2;
-
-        }
-
-        int a[] = new int[len];
-
-        for (int i = 0; i < len; i++) {
-
-            a[i] = inputStack.pop();
-        }
-        inputStack.pop();
-        for (int i = len - 1; i >= 0; i--) {
-            inputStack.push(a[i]);
-        }
-
+        sc.close();
     }
 }
