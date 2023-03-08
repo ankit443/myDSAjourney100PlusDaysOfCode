@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
