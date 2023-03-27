@@ -23,7 +23,7 @@ public class hashSetPractice {
         }
 
         // delete function
-        s.remove(1);
+        s.remove(1);  
         if (!s.contains(1)) {
             System.out.println("The element 1 has been removed from the HashSet");
         }
