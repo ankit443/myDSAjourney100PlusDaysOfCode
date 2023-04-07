@@ -3,7 +3,7 @@ import java.util.Scanner;
 //Notes to be noted between functions and methods
 // we call methods through class' objects
 //we call functions directly
-
+ 
 
 public class factorial {
 

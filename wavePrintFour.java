@@ -1,12 +1,13 @@
-import java.util.*;
+import java.util.Scanner;
+
 
 public class wavePrintFour {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         
         // Read the dimensions of the matrix
-        int m = scanner.nextInt();
-        int n = scanner.nextInt();
+        int m = sc.nextInt();
+        int n = sc.nextInt();
         
         // Initialize the matrix
         int[][] matrix = new int[m][n];
@@ -14,7 +15,7 @@ public class wavePrintFour {
         // Read the matrix values
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                matrix[i][j] = scanner.nextInt();
+                matrix[i][j] = sc.nextInt();
             }
         }
         
@@ -31,4 +32,11 @@ public class wavePrintFour {
             }
         }
     }
+
+
+    
+
+
+
+    
 }
