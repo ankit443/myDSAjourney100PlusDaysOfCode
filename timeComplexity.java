@@ -13,6 +13,9 @@ public class timeComplexity {
         //we dont consider the constants because they will later become non-dominant
         //when we have 2 loops togther lets say a nested loop which has 2 for loops inside, 
 
+        //during the time of solving, we may depitict the time complexity easily just by looking at the constants and the number of Ns, but sometimes we have to look towards the number of recursive calls in a given loop
+        
+
     }
     
 }
