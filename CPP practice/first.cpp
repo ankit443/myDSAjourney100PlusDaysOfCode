@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
-    printf("Hello duniya");
+    cout << "Welcome To Codes of Ankit";
     return 0;
 }
+
