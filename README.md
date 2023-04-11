@@ -1,4 +1,4 @@
 # myDSAjourney
- practice problems that i will solve daily - java
+ practice problems that i will solve daily
 
 
