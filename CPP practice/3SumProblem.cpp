@@ -1,23 +1,6 @@
 // given an integer array nums, return all triplets: nums[i], nums[j], nums[k] such that i ! = j, i ! = k, j ! = k and nums[i] + nums[j] +nums[k] == 0
 
 // Optimized Approach - O(n^2 + nlogn) - o(n^2) time and O(n) space
-
-#include<vector>
-#include<algorithm>
-#include<stdio.h>
-#include<iostream>
-#include "stdlib.h"
-#include "malloc.h"
-#include "stdio.h"
-#include <set>
-#include <vector>
-#include <string>
-#include <list>
-#include <iostream>
-#include <io.h>
-#include <fcntl.h>
-#include <fstream>
-
 using namespace std;
 
 
