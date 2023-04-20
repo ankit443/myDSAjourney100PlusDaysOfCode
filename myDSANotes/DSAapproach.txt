@@ -10,3 +10,6 @@ if you have a problem, try to make a rough Solution
 - use Flowchart/pseudocode
 - machine understandable format
 - flowchart is a diagramatic representation of an approach
+
+
+every programming language has its own rules and semantics
