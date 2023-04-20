@@ -2,10 +2,6 @@ import javax.swing.tree.TreeNode;
 
 class LongestZigZagPathInBinaryTree {
 
-
-
-
-
     int max=0;
     public int longestZigZag(TreeNode root) {
        if (root == null) return -1;
