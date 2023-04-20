@@ -1,33 +1,8 @@
-
-//definition for a binary tree node
-import javax.swing.tree.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
+import javax.swing.tree.TreeNode;
 
-class TreeNode {
-
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-
-    }
-
-}
-
-
-public class MaxWidthOfBinaryTree {
+class Solution {
     public int widthOfBinaryTree(TreeNode root) {
         if (root == null) {
             return 0;
@@ -61,4 +36,22 @@ public class MaxWidthOfBinaryTree {
         
         return maxWidth;
     }
+}
+
+
+
+public class MaxWidthOfBinaryTree{
+
+    public static void main(String[] args){
+
+        Solution s= new Solution();
+
+        int result=s.widthOfBinaryTree(TreeNode root);
+
+        Assert.Equal(result, actualResult);
+
+
+    }
+
+    
 }

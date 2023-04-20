@@ -1,0 +1,22 @@
+Time Complexity and Big O:
+
+Big O is having 2 parts of it: Mathematical definition and Industrial Definition
+Industry Def Big O can also be called as Order of 
+
+Big O
+Big Theta
+Big Omega
+
+O(n) can automatically be O(n^2) as well
+and that also can automatically be O(n^3)
+Keep going on higher order - this is the Mathematical definition
+
+Coming to the Industrial definition part, the lesser the better so we consider only the major parts
+Industry defintion is minimum of these(summarize)
+
+
+whenever I use Mathematical definition I use the term: Big O
+whenever I use Industrial definition I use the term: Order O
+
+Big O and Order Of can be used interchangeably but we should know the complete story
+
