@@ -5,8 +5,6 @@
 import java.util.Scanner;
 
 
-
-
 public class avgSalExcludeMinMax {
 
     public double average(int[] salary) {
@@ -24,7 +22,6 @@ public class avgSalExcludeMinMax {
             }
             totalSalary+=s;
             numEmployees++;
-
         }
 
         totalSalary-= minSalary+ maxSalary;
@@ -38,8 +35,16 @@ public class avgSalExcludeMinMax {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        
+        //enter the salaries as in elements in array
+        // enter array size
+        int s = sc.nextInt();
 
+        int[] salary = new int[s];
+
+        //enter array elements
+        for(int i=0; i<s; i++){
+            salary[i] = sc.nextInt();
+        }
 
         sc.close();
 
