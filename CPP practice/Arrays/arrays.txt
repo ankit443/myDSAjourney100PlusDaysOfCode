@@ -1,0 +1,56 @@
+Arrays in CPP
+
+int a; declaration;
+int dost[10]; 
+
+lets say we have 5 size ka Arrays
+
+our first node has address 100, then 108 then 112
+
+so variable name such as int v[5] so the v will showup with the first location
+
+indexing 
+ 
+ lets say we have 0 1 2 3 indexes
+ so our first location is 0 and we have 2 as the element there
+
+ so vo[0] will have a value of 2
+
+ cout<<v[0];
+ so output will be 2 since first element is 2
+
+ v[1] so 
+ the apporach would be like: v has first starting address of 1, so next address is 104
+ so 100 + 1*4 we will have 104 so cout<<v[1] will give output 6 since 6 is second element
+
+ lets say we have v[3] so we want to find the output of the 4th index so  the apporach would be like
+ lets say our starting first address is on 100
+
+ so 100 + 3*4 equals 112 (why multiply by 4? because of 4 bytes per element)
+
+ so the element on 112 address is 8
+
+
+ so the basic knowledge what one must have is
+ the starting location of an array starts from 0 index then it keeps increasing
+
+
+
+ * what is declaration
+ * how to access
+ * 5th location means dost[4] because index count starts from 0 
+
+ so from 0 to (n-1) where n equals the size of array
+
+ *initialisation:
+
+ int a =5; 
+
+ example: int number[3] = {5, 7, 11} syntax of array example
+
+ array's name is number of size 3
+
+
+ example" int array[10000];
+
+ if we dont mention the elements, anything random could have been stored
