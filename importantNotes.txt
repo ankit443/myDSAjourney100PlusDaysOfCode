@@ -1,0 +1,29 @@
+// ** Important **
+
+Data Structures:
+Arrays 
+LinkedLists 
+Stacks and Queues 
+Heap 
+Hashmaps
+Binary Trees 
+BST 
+Graph 
+Tree 
+
+Algorithms: 
+Recursion 
+Backtracking 
+Sorting Algorithms 
+Bits manipulation 
+Binary Search Trees 
+Greedy Algorithms
+Dynamic Programming 
+
+Generic Problems: GFG, Leetcode
+Most Asked Problems 
+
+Core Subjects: 
+Operating Systems
+RDBMS
+OOPS 
