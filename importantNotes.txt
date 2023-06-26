@@ -27,3 +27,10 @@ Core Subjects:
 Operating Systems
 RDBMS
 OOPS 
+
+
+Microsoft: Binary Trees, BST more
+Google: Graph, DP
+Zomato: Stack
+
+Service based: Arrays

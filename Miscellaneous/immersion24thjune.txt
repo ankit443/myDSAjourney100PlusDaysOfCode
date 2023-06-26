@@ -1,0 +1,35 @@
+questionOne:
+
+we are given an array named arr, and of size N. task here is to sort the array of size N which consists of 0s, 1s and 2s. constraints are: 
+1 < N < 100
+1 <= arr(i) <= 2
+
+example: array such as [1, 2, 2, 0, 1, 1] will be converted to [0, 1, 1, 1, 2, 2]
+
+for reference: https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+
+
+
+questionTwo: 
+
+string of size N. N is divisble by 4. examine the string(s) of size N. string cant be necessarily steady. we can later choose one substring of it and replace it with any string of the same length. modifying a large substring should be avoided. 
+
+task here is to find the smallest possible substring that can be replaced to make a steady string. there is also a condition that we should solve the question in order of N 
+
+case input:
+4
+GAAATAAA
+
+
+questionThree:
+
+R, K and Dhoni births are in the ratio of 1:2:4, with the equation of Rx^2 + Kx + D where co-efficient of R, K and D are birth ratios that is R =1; K =2; D=4;
+
+Number of online tests: N 
+test marks are taken into an array 
+pick one of the test marks and then mutliply with the root of the quadratic equation provided by K 
+
+input:
+first line consists of N denoting number of tests
+second line consists array of marks 
+

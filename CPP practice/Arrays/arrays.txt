@@ -54,3 +54,7 @@ indexing
  example" int array[10000];
 
  if we dont mention the elements, anything random could have been stored
+
+
+ h/w: initialize entire array with any element value: how to do it?
+ 
