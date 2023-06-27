@@ -17,18 +17,23 @@ void printArray(int arr[], int size)
 int main()
 {
 
-    cout<<"Working with arrays here"<<endl;
+    // cout<<"Working with arrays here"<<endl;
 
 
-    //initial
-    cout<<"Enter the size of array: ";
+    // //initial
+    // cout<<"Enter the size of array: ";
 
-    int N;
-    cin>>N;
+    // int N;
+    // cin>>N;
 
-    int arrayOne[N];
+    // int arrayOne[N];
 
-    printArray(arrayOne, N);
+    // printArray(arrayOne, N);
+
+
+    int M=5;
+    int arrayTwo[M] = {1, 2, 3, 4, 5};
+    cout<< arrayTwo[M] <<endl;
 }
 
 // 37:57

@@ -1,0 +1,4 @@
+we have an array. find out the max and the minimum element.
+Q1:
+
+
