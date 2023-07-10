@@ -1,0 +1,37 @@
+20-25 problems on 1 data structure, not too much
+
+revision while learning:
+
+
+trees-> recursion
+stacks and queues-> linkedlist
+graphs -> stacks and queues
+
+200-250 problems
+
+quality over quantity
+
+use pen and paper
+
+dont do comparison with others
+
+dont ever pause DSA - not even after job
+
+dont give up
+
+have patience
+
+
+
+//more:
+
+1.pick language c++ or Java 
+if you want to do cp pick c++ 
+because 90% people in cp do in c++
+2.learn DSA
+3.solve questions on geeks for geeks and leetcode
+4.learn web development/app development/etc and build  projects (2-3)
+5.learn concepts (OS,DBMS,CN,OOPS)
+6.learn system design
+7.if you have time solve cp on codechef or codeforces
+8.revise every things regularly because if forgotten then have to learn from start
