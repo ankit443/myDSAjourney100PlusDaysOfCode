@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//linear search
+
 bool hasElement(int arr[], int size, int key)
 
 {
