@@ -1,5 +1,3 @@
-  // cout<<"Working with arrays here"<<endl;
-
-
-    // //initial
-    // cout<<"Enter the size of array: ";
+ // cout<<"step"<<step++<<endl;
+        // printArray(arr, 9);
+        // cout<<endl;

@@ -21,8 +21,13 @@ void sortOne(int arr[], int n)
     int i = 0;
     int j = n - 1;
 
+    int step = 0;
+
     while (i < j)
     {
+        // cout<<"step"<<step++<<endl;
+        // printArray(arr, 9);
+        // cout<<endl;
 
         while (arr[i] == 0 && i < j)
         {
