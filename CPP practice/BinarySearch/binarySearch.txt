@@ -1,0 +1,11 @@
+binarySearch:
+
+for loop
+if arr[i] == key, return this, return that, etc, else return this. TC of O(n)
+
+in linear search case, n size ke case mein, worst case mein N comparison
+
+binarySearch only works on monotonic functions
+monotonic functions meaning: either entirely non-increasing or non-decreasing
+condition: element should be in monotonic functions
+

@@ -1,0 +1,47 @@
+time complexity: it is the amount of time taken by an algorithm to run 
+as a function of length of the input
+
+for making better programs
+comparison of algorithms
+
+big O notations: for upper bound 
+theta - for average case complexity 
+omega - lower bound
+
+constant time: O(1)
+example: for(int i=0; i<10; i++){
+    cout<<"hello";
+
+}
+
+
+
+linear time: O(n)
+example:for(int i=0; i<N; i++){
+    cout<<endl;
+}
+
+
+logarithmic time: O(logn)
+example: Binary Search
+
+
+quadratic time: O(n^2)
+example: nested for loops
+
+
+cubic time: O(n^3)
+example: triple for loops
+
+
+examples to figure out TC:
+2n^2 + 3 n : ignore the lower degrees, so TC is bigO(n^2)
+
+4n^4 + 3n^3: TC: O(n^4)
+
+N^2 + LogN = 
+
+
+
+Space Complexity: how much memory
+
