@@ -1,6 +1,9 @@
 // given an integer array nums, return all triplets: nums[i], nums[j], nums[k] such that i ! = j, i ! = k, j ! = k and nums[i] + nums[j] +nums[k] == 0
 
 // Optimized Approach - O(n^2 + nlogn) - o(n^2) time and O(n) space
+#include<iostream>
+#include<bits/stdc++.h>
+#include<vector>
 using namespace std;
 
 
@@ -42,3 +45,4 @@ public:
         return output;
     }
 };
+

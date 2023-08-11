@@ -2,6 +2,7 @@
 #include <bits/stdc++.h>
 #include <vector>
 
+
 using namespace std;
 
 int lastOcc(int arr[], int size, int key)
@@ -63,9 +64,12 @@ int firstOcc(int arr[], int size, int key)
 int main()
 {
 
+    
     int arr[9] = {1, 2, 3, 3, 3, 3, 3, 3, 5};
 
     int totalOccurences = (lastOcc(arr, 9, 3) - firstOcc(arr, 9, 3)) + 1;
     cout<<totalOccurences;
+
+
 
 }
