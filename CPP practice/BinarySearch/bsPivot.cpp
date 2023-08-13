@@ -66,7 +66,7 @@ int findPosition(vector<int> &arr, int n, int k){
     }else{
 
 //BS on first line
-        return binarySearch(arr, 0, pivot-1, k)
+        return binarySearch(arr, 0, pivot-1, k);
     }
 }
 
