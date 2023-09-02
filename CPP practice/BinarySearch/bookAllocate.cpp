@@ -6,15 +6,11 @@
 using namespace std;
 
 // given an array 'arr' of integer numbers, where arr[i] represents the number of pages in the 'i'th book. There are 'm' number of students and task is to allocate all of the books to their students. Allocate books in such a way that:
-
 // each student gets at least one book
 // each book should be allocated to a student
 // book allocation should be in a contigous manner
-
 // You have to allocate the book to 'm' students such that the maximum number of pages assigned to a student is minimum
-
 // example: let's consider n=4; and m=2;
-
 // arr={10, 20, 30, 40}
 
 bool isPossible(vector<int> arr, int n, int m, int mid){
