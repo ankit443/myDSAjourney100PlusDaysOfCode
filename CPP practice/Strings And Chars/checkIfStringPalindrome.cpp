@@ -1,7 +1,20 @@
 #include <iostream>
 #include <bits/stdc++.h>
 
+//This problem is not case sensitive 
+
 using namespace std;
+
+char toLowerCase(char ch){
+    if(ch >= 'a' && ch <= 'z'){
+        return ch;
+    }else{
+        char temp = ch - 'A' + 'a'; //game os ASCII Value for uppercase to lowercase Case
+        // char temp = ch - 'a' + 'A' game of ASCII Value for lowercase to
+        return temp;
+    }
+}
+
 
 int getLength(char name[])
 {
@@ -31,7 +44,7 @@ bool checkPalndrome(char a[], int n)
 
     while (s <= e)
     {
-        if (a[s] != a[e])
+        if (toLowerCase(a[s]) != toLowerCase(a[e]))
         {
             return 0;
         }
@@ -44,6 +57,9 @@ bool checkPalndrome(char a[], int n)
 
     return 1;
 }
+
+
+
 
 int main()
 {
@@ -62,6 +78,9 @@ int main()
     cout << name << endl;
 
     cout << " Palindrome or not: " << checkPalndrome(name, len) << endl;
+
+    cout<<"Character is: "<<toLowerCase('b')<<endl;
+    cout<<"Character is: "<<toLowerCase('C')<<endl;
 
     return 0;
 }
