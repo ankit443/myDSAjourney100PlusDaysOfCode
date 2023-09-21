@@ -1,0 +1,20 @@
+key differences between character array and strings
+
+Strings:
+ are immutable
+ String referes to sequence of characters represented as a single data type
+ Built in functions like substring(), charAt(), etc can be used
+ + can be used to appended strings together to form 
+
+ Strings can be stored in any manner in the memory 
+
+
+
+
+
+
+Char Arrays:
+ are mutable: meaning the characters in the char array can be changed
+ the characters in the so assigned string cannot be changed thats why they are immutable 
+ the charAt() method can be used to access characters at a particular index in a string 
+ Elements in character array 
