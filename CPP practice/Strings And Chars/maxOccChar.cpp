@@ -28,7 +28,7 @@ char getMaxOccurringChar(string s){
     int maxi = -1;
     int ans = 0;
 
-    for(int i=0; i<s.length(); i++){
+    for(int i=0; i<26; i++){
 
         if(maxi<arr[i]){
             ans = i;
@@ -37,6 +37,11 @@ char getMaxOccurringChar(string s){
         
     }
 
+
+    char finalAns = 'a' + ans;
+    return finalAns;
+
+
 }
 
 int main(){
@@ -44,6 +49,8 @@ int main(){
 
     string s;
     cin>>s;
+
+    cout<<getMaxOccurringChar(s);
 
 
     return 0;
