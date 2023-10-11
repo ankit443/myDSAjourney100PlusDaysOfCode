@@ -14,8 +14,29 @@
 
 using namespace std;
 
+string removeDupes(string s){
+    string strUnique = "";
+    int index = 0;
+
+    while(index<s.length()){
+        if(strUnique.length() > 0 && strUnique[strUnique.length()-1] == s[index]){
+            strUnique.pop_back();
+        }else{
+            strUnique.push_back(s[index]);
+        }index++;
+
+    }return strUnique;
+}
+
 
 int main(){
+
+    string s;
+    cin>>s;
+    cout<<endl;
+
+    string result = removeDupes(s);
+    cout<<"Result: "<<result<<endl;
 
 
 
