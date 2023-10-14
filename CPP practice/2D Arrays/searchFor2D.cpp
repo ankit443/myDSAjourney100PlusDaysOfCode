@@ -6,6 +6,27 @@
 
 using namespace std;
 
+//to print row wise sum
+void printSum(int arr[][4], int row, int col ){
+    cout<<"Printing sum from rows: "<<endl;
+
+    int sum = 0;
+
+
+    for(int row = 0;row<3; row++){
+        for(int col=0; col<4; col++){
+            sum+=arr[row][col];
+
+        }cout<<sum<<" ";
+        
+        
+
+    }
+
+
+
+}
+
 bool isPresent(int arr1[][4], int target, int row, int col)
 {
 
@@ -52,6 +73,8 @@ int main()
         }
         cout << endl;
     }
+
+    printSum(arr1, 3, 4);
 
     if (isPresent(arr1, target, 3, 4))
     {
