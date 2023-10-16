@@ -13,7 +13,7 @@ int largestSum(int arr[3][4], int row, int col){
 
     for(int row=0; row<3; row++){
         int sum = 0;
-        for(int col=0; col<3; col++){
+        for(int col=0; col<4; col++){
             sum+=arr[row][col];
         }
 
