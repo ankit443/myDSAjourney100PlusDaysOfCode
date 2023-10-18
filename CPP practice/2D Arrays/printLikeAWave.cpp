@@ -7,8 +7,6 @@ using namespace std;
 vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols){
 
     vector<int> answer;
-
-
     for(int col=0; col<mCols; col++){
         if(col&1){
 
@@ -40,7 +38,7 @@ vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols){
 int main(){
 
     int rows = 3;
-    int cols = 4;
+    int cols = 3;
 
 
     vector<vector<int>> vectorArray(rows, vector<int>(cols));
@@ -63,6 +61,12 @@ int main(){
 
     cout<<endl;
    }
+
+
+    //fix the issue for not being able to execute code in main function 
+   
+
+//    cout<<"Printing the sum in a wave: "<<wavePrint(vectorArray, 3, 3)<<endl;
 
 
     return 0;
