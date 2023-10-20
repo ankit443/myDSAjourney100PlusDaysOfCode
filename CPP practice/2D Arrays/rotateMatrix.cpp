@@ -2,6 +2,8 @@
 #include<bits/stdc++.h>
 #include<vector>
 
+//this is an inaccurate code. unrealiable.
+
 using namespace std;
 
 //function for the rotation of image problem
@@ -37,7 +39,7 @@ int main(){
     cin>>numCols;
 
 
-    vector<vector<int>> matrix(numRows, vector<int>(numCols));
+    vector<vector<int>> matrix(vector<int>(numRows), vector<int>(numCols));
 
     //input matrix elements
     cout<<"Enter the matrix elements: "<<endl;
@@ -51,7 +53,17 @@ int main(){
 
     //display the matrix elements
 
+
     cout<<"Matrix elements: "<<endl;
+    for(int i=0; i<numRows; i++){
+        for(int j=0; j<numCols; j++){
+            cout<<matrix[i][j]<<" ";
+        }
+    }
+
+    cout<<"rotated matrix be like: "<<rotate(matrix)<<endl;
+
+    return 0;
 
 
 
