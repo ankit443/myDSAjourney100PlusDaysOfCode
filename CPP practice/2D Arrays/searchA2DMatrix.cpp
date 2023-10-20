@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 
 //write an efficient algorithm where in the mXn matrix, search function will be there
+//important is mid/col and then mic%col
 
 
 bool searchMatrix(vector<vector<int>>& matrix, int target){ 
