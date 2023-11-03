@@ -1,0 +1,24 @@
+// sieve of eratosthenes
+// segmented sieve
+// GCD, lCM
+
+fast Power
+modular Arithmetic
+
+above are hot topics
+
+important topics below:
+Pigeon Hole Princile
+Catalan Number
+Inclusion/ Exclusion Principle
+
+factorial of a number 
+for big numbers (example: 10^9 + 7)
+
+CRT
+Lucas Theorem
+FT
+Probability Questions
+
+
+

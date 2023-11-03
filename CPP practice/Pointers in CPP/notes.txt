@@ -1,0 +1,4 @@
+what is a pointer?
+why we need it?
+different types of Pointers
+
