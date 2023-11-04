@@ -37,6 +37,24 @@ int main(){
     cout<<"Size of double is: "<<sizeof(d)<<endl;
 
 
+    int i = 6;
+    int *q = &i; //stores the value 6 in a pointer q
+
+
+    cout<<*q<<endl; //gives value 6 as output
+    cout<<q<<endl; //gives address value of where i is stored
+
+    //another concept for Pointer Arithmetics
+    //important concept
+    i=3;
+    int *t = &i;
+    // cout<<(*t)++<<endl;
+
+    *t = *t + 1;
+    cout<<*t<<endl;
+    // t= t+1; //4 byte piche 
+
+
 
 
     return 0;
