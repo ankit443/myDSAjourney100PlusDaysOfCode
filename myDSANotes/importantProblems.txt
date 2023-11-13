@@ -1,0 +1,17 @@
+✅ Arrays
+- Binary Search
+- Sorting
+- Two Pointers
+- Sliding Window
+- Prefix Sums
+✅ Recursion (Decision Trees)
+- Binary Trees
+- Tries
+- Backtracking
+✅ Graphs
+- Depth-first-search
+- Breadth-first-search
+✅ HashMaps
+✅ Heap
+
+focus on all above 
